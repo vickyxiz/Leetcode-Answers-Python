@@ -5,7 +5,7 @@ class Solution:
         ans = inf
         for i, v in enumerate(nums):
             j, k = i + 1, n - 1
-            while j < k:
+            while j < k: 
                 t = v + nums[j] + nums[k]
                 if t == target:
                     return t 
