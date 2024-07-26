@@ -13,7 +13,7 @@
  		else{
  			string letters = key[s[index] - '0'];
  			for(const char c: letters){
- 				recursion(s, cur + c, index + 1);
+ 				recursion(s, cur + c, index + 1); 
  			}
  		}
  	}
