@@ -8,7 +8,7 @@ class Solution:
             while j < k:
                 t = v + nums[j] + nums[k]
                 if t == target:
-                    return t
+                    return t 
                 if abs(t - target) < abs(ans - target):
                     ans = t
                 if t > target:
