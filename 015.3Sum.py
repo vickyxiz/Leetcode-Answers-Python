@@ -5,7 +5,7 @@ class Solution:
         ans = []
         for i in range(n - 2):
             if nums[i] > 0:
-                break
+                break 
             if i and nums[i] == nums[i - 1]:
                 continue
             j, k = i + 1, n - 1
