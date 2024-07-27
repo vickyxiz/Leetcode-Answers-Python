@@ -5,3 +5,4 @@ class Solution:
                 if len(s) <= i or s[i] != strs[0][i]:
                     return s[:i]
         return strs[0]
+ 
