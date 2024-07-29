@@ -2,7 +2,7 @@
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = valr
-#         self.next = next
+#         self.next = next 
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         setattr(ListNode, "__lt__", lambda a, b: a.val < b.val)
