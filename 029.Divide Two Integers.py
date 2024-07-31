@@ -1,7 +1,7 @@
 class Solution:
     def divide(self, a: int, b: int) -> int:
         if b == 1:
-            return a
+            return a 
         if a == -(2**31) and b == -1:
             return 2**31 - 1
         sign = (a > 0 and b > 0) or (a < 0 and b < 0)
