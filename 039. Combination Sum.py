@@ -5,7 +5,7 @@ class Solution:
                 ans.append(t[:])
                 return
             if s < candidates[i]:
-                return
+                return 
             for j in range(i, len(candidates)):
                 t.append(candidates[j])
                 dfs(j, s - candidates[j])
