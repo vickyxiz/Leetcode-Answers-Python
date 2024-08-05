@@ -2,7 +2,7 @@ class Solution:
     def solveSudoku(self, board: List[List[str]]) -> None:
         def dfs(k):
             nonlocal ok
-            if k == len(t):
+            if k == len(t): 
                 ok = True
                 return
             i, j = t[k] 
