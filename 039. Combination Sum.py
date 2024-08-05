@@ -1,7 +1,7 @@
 class Solution:
     def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
         def dfs(i: int, s: int):
-            if s == 0:
+            if s == 0: 
                 ans.append(t[:])
                 return
             if s < candidates[i]:
