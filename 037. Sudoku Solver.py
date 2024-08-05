@@ -6,7 +6,7 @@ class Solution:
                 ok = True
                 return
             i, j = t[k]  
-            for v in range(9):
+            for v in range(9): 
                 if row[i][v] == col[j][v] == block[i // 3][j // 3][v] == False:
                     row[i][v] = col[j][v] = block[i // 3][j // 3][v] = True
                     board[i][j] = str(v + 1)
