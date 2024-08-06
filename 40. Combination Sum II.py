@@ -5,7 +5,7 @@ class Solution:
                 ans.append(t[:])
                 return
             if i >= len(candidates) or s < candidates[i]:
-                return
+                return 
             for j in range(i, len(candidates)):
                 if j > i and candidates[j] == candidates[j - 1]:
                     continue
