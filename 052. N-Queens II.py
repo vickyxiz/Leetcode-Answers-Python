@@ -6,7 +6,7 @@ class Solution:
                 ans += 1   
                 return
             for j in range(n): 
-                a, b = i + j, i - j + n
+                a, b = i + j, i - j + n 
                 if cols[j] or dg[a] or udg[b]:
                     continue
                 cols[j] = dg[a] = udg[b] = True
