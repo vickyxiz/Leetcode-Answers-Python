@@ -3,7 +3,7 @@ class Solution:
         def dfs(i: int):
             if i == n:
                 nonlocal ans      
-                ans += 1   
+                ans += 1
                 return 
             for j in range(n): 
                 a, b = i + j, i - j + n 
