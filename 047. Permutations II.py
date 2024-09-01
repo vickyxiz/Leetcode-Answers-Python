@@ -1,6 +1,6 @@
 class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]: 
-        def dfs(i: int): 
+        def dfs(i: int):  
             if i == n:    
                 ans.append(t[:])  
                 return 
