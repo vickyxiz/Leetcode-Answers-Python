@@ -2,7 +2,7 @@ class Solution:
     def totalNQueens(self, n: int) -> int:
         def dfs(i: int):
             if i == n:       
-                nonlocal ans      
+                nonlocal ans       
                 ans += 1  
                 return  
             for j in range(n): 
