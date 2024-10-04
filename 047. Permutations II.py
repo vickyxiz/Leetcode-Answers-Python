@@ -8,7 +8,7 @@ class Solution:
                 if vis[j] or (j and nums[j] == nums[j - 1] and not vis[j - 1]):
                     continue
                 t[i] = nums[j]
-                vis[j] = True 
+                vis[j] = True  
                 dfs(i + 1)
                 vis[j] = False
 
