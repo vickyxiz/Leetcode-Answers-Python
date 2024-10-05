@@ -2,7 +2,7 @@ class Solution:
     def permuteUnique(self, nums: List[int]) -> List[List[int]]:   
         def dfs(i: int): 
             if i == n:   
-                ans.append(t[:])   
+                ans.append(t[:])    
                 return   
             for j in range(n): 
                 if vis[j] or (j and nums[j] == nums[j - 1] and not vis[j - 1]):
