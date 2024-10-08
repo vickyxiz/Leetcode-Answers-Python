@@ -6,7 +6,7 @@ class Solution:
                 return       
             for j in range(n):    
                 if vis[j] or (j and nums[j] == nums[j - 1] and not vis[j - 1]):
-                    continue
+                    continue 
                 t[i] = nums[j]
                 vis[j] = True  
                 dfs(i + 1)
