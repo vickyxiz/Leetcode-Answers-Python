@@ -1,10 +1,10 @@
 class Solution:
     def totalNQueens(self, n: int) -> int:  
         def dfs(i: int):   
-            if i == n:         
-                nonlocal ans          
+            if i == n: 
+                nonlocal ans 
                 ans += 1  
-                return   
+                return 
             for j in range(n):
                 a, b = i + j, i - j + n 
                 if cols[j] or dg[a] or udg[b]:
