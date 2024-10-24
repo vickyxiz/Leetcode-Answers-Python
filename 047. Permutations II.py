@@ -3,7 +3,7 @@ class Solution:
         def dfs(i: int):
             if i == n:    
                 ans.append(t[:])  
-                return
+                return 
             for j in range(n):    
                 if vis[j] or (j and nums[j] == nums[j - 1] and not vis[j - 1]):
                     continue 
