@@ -12,7 +12,7 @@ class Solution:
                 cols[j] = dg[a] = udg[b] = True
                 dfs(i + 1)
                 cols[j] = dg[a] = udg[b] = False
-
+ 
         cols = [False] * 10
         dg = [False] * 20
         udg = [False] * 20
